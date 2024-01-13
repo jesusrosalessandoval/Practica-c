@@ -16,30 +16,30 @@ int main(int argc, char *argv[]) {
 	//Asignando valores numericos
 	letra=65;//ASCII es la letra A.
 	cout<<"Imprimiendo ASCII '65': "<<letra<<endl;
-	//IMPRIMIR EN CODIGO ASCII LAS VOCALES MAY Y MIN, @,\,Á,É,Í,Ó,Ú
-	letra=181;//ASCII es la letra Á.
+	//IMPRIMIR EN CODIGO ASCII LAS VOCALES MAY Y MIN, @,\,Ã,Ã‰,Ã,Ã“,Ãš
+	letra=181;//ASCII es la letra Ã.
 	cout<<"Imprimiendo ASCII '181': "<<letra<<endl;
-	letra=144;//ASCII es la letra É.
+	letra=144;//ASCII es la letra Ã‰.
 	cout<<"Imprimiendo ASCII '144': "<<letra<<endl;
-	letra=214;//ASCII es la letra Í.
+	letra=214;//ASCII es la letra Ã.
 	cout<<"Imprimiendo ASCII '214': "<<letra<<endl;
-	letra=224;//ASCII es la letra Ó.
+	letra=224;//ASCII es la letra Ã“.
 	cout<<"Imprimiendo ASCII '224': "<<letra<<endl;
-	letra=233;//ASCII es la letra Ú.
+	letra=233;//ASCII es la letra Ãš.
 	cout<<"Imprimiendo ASCII '233': "<<letra<<endl;
 	letra=64;//ASCII es la letra @.
 	cout<<"Imprimiendo ASCII '64': "<<letra<<endl;
 	letra=92;//ASCII es la letra \.
 	cout<<"Imprimiendo ASCII '92': "<<letra<<endl;
-	letra=160;//ASCII es la letra á.
+	letra=160;//ASCII es la letra Ã¡.
 	cout<<"Imprimiendo ASCII '160': "<<letra<<endl;
-	letra=130;//ASCII es la letra é.
+	letra=130;//ASCII es la letra Ã©.
 	cout<<"Imprimiendo ASCII '130': "<<letra<<endl;
-	letra=161;//ASCII es la letra í.
+	letra=161;//ASCII es la letra Ã­.
 	cout<<"Imprimiendo ASCII '161': "<<letra<<endl;
-	letra=162;//ASCII es la letra ó.
+	letra=162;//ASCII es la letra Ã³.
 	cout<<"Imprimiendo ASCII '162': "<<letra<<endl;
-	letra=163;//ASCII es la letra ú.
+	letra=163;//ASCII es la letra Ãº.
 	cout<<"Imprimiendo ASCII '163': "<<letra<<endl;
 	
 	char nombre[]="JUAN";
@@ -49,6 +49,11 @@ int main(int argc, char *argv[]) {
 	cout <<"Imprimiendo el nombre[2] '\': "<<nombre[2]<<endl;
 	cout <<"Imprimiendo el nombre[3] '\': "<<nombre[3]<<endl;
 	
+	nombre[0]='j';
+	nombre[1]='u';
+	nombre[2]='a';
+	nombre[3]='n';
+	cout<<"Imprimir el NOMBRE '\': "<<nombre<<endl;
 	
 	
 	
