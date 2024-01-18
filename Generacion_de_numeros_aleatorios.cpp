@@ -1,0 +1,24 @@
+/*
+TITULO:NUMERO ALEATORIO
+AUTOR:JUAN JESUS ROSALES SANDOVAL
+DESCRIPCION:IMPRIMIR N NÚMEROS ALEATORIOS ENTRE 0 Y 99 DONDE N QUE SERA INGRESADO POR EL USUARIO
+FECHA:17/01/2024
+*/
+#include <iostream>
+#include <cstdlib> // GENERA NÚMEROS ALEATORIOS
+
+using namespace std;
+int main() {
+	int n;
+	
+	// SOLICITAR AL USUARIO INGRESAR LA CANTIDAD DE NÚMEROS ALEATORIOS
+	cout << "INGRESE LA CANTIDAD DE NUMERO A GENERAR: ";
+	cin >> n;
+	
+	// IMPRIMIR N NÚMEROS ALEATORIOS ENTRE 0 Y 99
+	for (int i = 0; i < n; ++i) {
+		cout <<rand() % 99 <<endl;
+	}
+	
+	return 0;
+}
